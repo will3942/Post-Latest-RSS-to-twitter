@@ -1,0 +1,18 @@
+This script automatically posts the latest entry from an RSS feed to twitter using PHP. This uses the twitteroauth library from abraham: https://github.com/abraham/twitteroauth 
+
+-----
+
+To install, fill in the fields in rssmonitor.php with your twitter keys:
+
+You can get these at http://dev.twitter.com by making a new application, you need to change the privileges to read and write and generate oAuth keys. 
+Also fill in the RSS feed url which is just below the twitter oAuth keys.
+
+Also upload all the files to a remote server or a local one.
+
+-----
+
+It is best practice to run in the shell:
+
+php rssmonitor.php
+
+But you can run in some browsers, I have tried on Google Chrome for Mac and it has worked.
